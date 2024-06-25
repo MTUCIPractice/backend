@@ -9,7 +9,7 @@ import (
 	"github.com/practice/backend/intertnal/controller/http"
 	"github.com/practice/backend/intertnal/repository"
 	"github.com/practice/backend/intertnal/repository/pgx"
-	"github.com/practice/backend/pgk/postgres"
+	"github.com/practice/backend/pkg/postgres"
 	"go.uber.org/zap"
 	"os/signal"
 	"syscall"
